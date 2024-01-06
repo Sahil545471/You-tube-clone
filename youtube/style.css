@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header_logo{
+   height: 65px; width: 100%;
+   display: flex;
+   /* align-items: center; */
+   justify-content: space-between;
+  
+}
+
+.catagory{
+    height: 60px; width: 100%;
+   border-top: 2px solid gray;
+   border-bottom: 1px solid gray;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap: 10px;
+
+   
+}
+.imagelogo img{
+    margin-left: 15px;
+    height: 65px;
+    width: 150px;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 25px; 
+    padding: 10px;
+}
+.itemscat{
+font-size: 25px;
+padding: 10px;
+border-radius: 5px ;
+padding: 5px;
+background-color: rgb(243, 242, 242);
+margin-left: 15px;
+}
+.textbox{
+    border-radius: 5px ;
+    padding: 5px;
+    background-color: rgb(243, 242, 242);
+    font-size: 1.2rem;
+}
+.cats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    gap: 10px;
+}
+.videoframe img{
+    height: 250px;
+    width: 300px;
+    border-radius: 15px;
+    margin-top: 15px;
+
+}
+.frame1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.idphoto img{
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+}
+.description{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+}
+.textdes{
+    font-size: 1.2rem;
+    font-style: bold;
+}
+#id{
+    font-size: .9rem;
+    color: grey;
+}
+.footer{
+   margin-top: 10px;
+    border-top: 1px solid gray;
+    height: 50px;
+}
+.footitems{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.itemdes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin left: 5px;
+}
+#itemss{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 5px;
+    gap: 5px;
+
+}
